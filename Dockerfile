@@ -1,3 +1,3 @@
-FROM cox-tomcat8-java8-oracle 
+FROM redhat-openjdk18-openshift
 ADD hello.war /deployments/
 
